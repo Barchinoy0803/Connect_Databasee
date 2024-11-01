@@ -65,8 +65,8 @@ class Drug:
             date = data[3].split("-")
             if  date[1] == '03' or date[1] == '04' or date[1] == '05':
                 print(f"{data[1]}, {data[2]}, {data[3]}, {data[4]}")
-            
+
+
 d = Drug()
 d.firstQuery()
-d.secondQuery()                
-             
+d.secondQuery()               
